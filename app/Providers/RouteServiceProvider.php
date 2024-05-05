@@ -14,6 +14,7 @@ class RouteServiceProvider extends ServiceProvider
         "v1" => [
             "user" => ["middleware" => "api", "prefix" => "users"],
             "auth" => ["middleware" => "api", "prefix" => "auth"],
+            "product" => ["middleware" => "api", "prefix" => "products"],
         ]
     ];
     public function register(): void
